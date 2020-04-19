@@ -1,103 +1,130 @@
 # 掘金翻译计划
 
 [![xitu](https://camo.githubusercontent.com/c9c9db0a39b56738a62332f0791d58b1522fdf82/68747470733a2f2f7261776769742e636f6d2f616c65656e34322f6261646765732f6d61737465722f7372632f786974752e737667)](https://github.com/xitu/gold-miner)
+[![掘金翻译计划](https://rawgit.com/aleen42/badges/master/src/juejin_translation.svg)](https://github.com/xitu/gold-miner/)
+[![](https://img.shields.io/badge/weibo-%E6%8E%98%E9%87%91%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92-brightgreen.svg)](http://weibo.com/juejinfanyi)
+[![](https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E%E4%B8%93%E6%A0%8F-%E6%8E%98%E9%87%91%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92-blue.svg)](https://zhuanlan.zhihu.com/juejinfanyi)
 
-[掘金翻译计划](http://gold.xitu.io/#/tag/%E6%8E%98%E9%87%91%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92) 是一个翻译优质互联网技术文章的社区，文章来源为 [掘金](http://gold.xitu.io) 上的英文分享文章。内容覆盖 [Android](#android)、[iOS](#ios)、[React](#react)、[前端](#前端)、[后端](#后端)、[产品](#产品)、[设计](#设计) 等领域，读者为热爱新技术的新锐开发者。
+[掘金翻译计划](https://juejin.im/tag/%E6%8E%98%E9%87%91%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92) 是一个翻译优质互联网技术文章的社区，文章来源为 [掘金](https://juejin.im) 上的英文分享文章。内容覆盖[区块链](#区块链)、[人工智能](#ai--deep-learning--machine-learning)、[Android](#android)、[iOS](#ios)、[前端](#前端)、[后端](#后端)、[设计](#设计)、[产品](#产品)和[其他](#其他) 等领域，以及各大型优质 [官方文档及手册](#官方文档及手册)，读者为热爱新技术的新锐开发者。
 
-掘金翻译计划目前翻译完成 [238](#近期文章列表) 篇文章，共有 [200](https://github.com/xitu/gold-miner/wiki/%E8%AF%91%E8%80%85%E7%A7%AF%E5%88%86%E8%A1%A8) 余名译者贡献翻译。
+掘金翻译计划目前翻译完成 [1726](#近期文章列表) 篇文章，官方文档及手册 [13](#官方文档及手册) 个，共有 [1000](https://github.com/xitu/gold-miner/wiki/%E8%AF%91%E8%80%85%E7%A7%AF%E5%88%86%E8%A1%A8) 余名译者贡献翻译和校对。
 
-# 如何参与翻译
+> ## [🥇掘金翻译计划 — 区块链分舵](https://github.com/xitu/blockchain-miner)
 
-1. **发 issue 申请成为译者**，只有掘金翻译计划的译者才可以参与校对和翻译，issue 内容包括：公司/学校、工作内容/专业、常浏览的国外网站、英语水平、有无翻译经验、个人博客，[往期译者申请格式](https://github.com/xitu/gold-miner/issues/249)。
+# 官方指南
 
-2. 每篇译文需要**一位译者和两位校对者**。新译者从校对文章开始，校对完至少一篇文章之后才能开始领取翻译任务。label 具体内容及其含义：
+[**推荐优质英文文章到掘金翻译计划**](https://github.com/xitu/gold-miner/issues/new/choose)
 
-   * 校对认领：此文章需要两位校对者。
-   * 校对认领 + 正在校对：此文章已经有一位校对者在校对了，现在还需要第二位校对者。
-   * 正在校对：此文章已经有两位校对者在校对了，校对文章只需在有**校对认领** label 的 Pull requests 下留言即可。
+<!--
+https://github.com/xitu/gold-miner/issues/new?title=推荐优秀英文文章&body=-%20原文链接：推荐文章前%20Google%20一下，尽量保证本文未被翻译%0A-%20简要介绍：介绍一下好不好啦，毕竟小编也看不太懂哎_(:з」∠)_)
+-->
 
-3. 翻译文章，在 [待认领文章列表](https://github.com/xitu/gold-miner/issues?q=is%3Aissue+is%3Aopen+label%3A%E6%96%87%E7%AB%A0%E8%AE%A4%E9%A2%86) 中认领翻译文章。（认领文章前请先到 [wiki](https://github.com/xitu/gold-miner/wiki/译者擅长领域表) 中修改下自己擅长的分类撒，为了保证翻译质量，建议认领自己擅长的领域内的译文进行翻译啦，校对文章就随便了哈~）
+### 翻译计划译者教程
 
-4. 认领通过后，Fork 此仓库开始翻译，**注意：Fork 此仓库后，请先从 master 分支上 `git checkout -b translate` 一个新的 translate 分支来翻译文章，翻译完成后再把 translate 分支发 PR**。
+1. [如何参与翻译](https://github.com/xitu/gold-miner/wiki/%E5%A6%82%E4%BD%95%E5%8F%82%E4%B8%8E%E7%BF%BB%E8%AF%91)
+2. [关于如何提交翻译以及后续更新的教程](https://github.com/xitu/gold-miner/wiki/%E5%85%B3%E4%BA%8E%E5%A6%82%E4%BD%95%E6%8F%90%E4%BA%A4%E7%BF%BB%E8%AF%91%E4%BB%A5%E5%8F%8A%E5%90%8E%E7%BB%AD%E6%9B%B4%E6%96%B0%E7%9A%84%E6%95%99%E7%A8%8B)
+3. [如何参与校对及校对的正确姿势](https://github.com/xitu/gold-miner/wiki/%E5%8F%82%E4%B8%8E%E6%A0%A1%E5%AF%B9%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF)
+4. [文章分享到掘金指南](https://github.com/xitu/gold-miner/wiki/%E5%88%86%E4%BA%AB%E5%88%B0%E6%8E%98%E9%87%91%E6%8C%87%E5%8D%97)
+5. [译文排版规则指北](https://github.com/xitu/gold-miner/wiki/%E8%AF%91%E6%96%87%E6%8E%92%E7%89%88%E8%A7%84%E5%88%99%E6%8C%87%E5%8C%97)
 
-5. 翻译为中文时排版请参考 **[中文文案排版指北](https://github.com/xitu/gold-miner/wiki/译文排版规则指北)**。
-
-6. 翻译完成，发送 [Pull Request](https://github.com/xitu/gold-miner/pull/new/master)，**注意：发 PR 的时候请注意检查，一个 PR 只能有一篇文章，切勿两篇或多篇合并到一个 PR**。
-
-7. 两位校对者校对完成后，可以根据校对者意见进行修改，修改完成后 @[管理员羊三岁](https://github.com/antonia0912) 或 [根号三](https://github.com/sqrthree) 进行最终检查，merge 后分享你的译文到 [掘金](http://gold.xitu.io)，让更多的开发者看到好的文章。
-
-8. 如果你是第一次参与翻译计划，分享文章到掘金的时候请参考 [分享指南](https://github.com/xitu/gold-miner/wiki/分享到掘金指南)。
-
-9. 更多问题请参考其实并没有十万个的 [十万个为什么](https://github.com/xitu/gold-miner/wiki/十万个为什么)。
 
 # 近期文章列表
 
+## 官方文档及手册
+
+* [TensorFlow 中文文档](https://github.com/xitu/tensorflow-docs)
+* [The JavaScript Tutorial](https://github.com/xitu/javascript-tutorial-zh)
+* [ML Kit 中文文档](https://github.com/Quorafind/MLkit-CN)
+* [GraphQL 中文文档](https://github.com/xitu/graphql.github.io)
+* [Under-the-hood-ReactJS 系列教程](https://github.com/xitu/Under-the-hood-ReactJS)
+* [系统设计入门教程](https://github.com/xitu/system-design-primer)
+* [Google Interview University 面试指北](https://github.com/xitu/google-interview-university)
+* [前端开发者指南（2017）](https://github.com/xitu/front-end-handbook-2017)
+* [前端开发者指南（2018）](https://github.com/xitu/front-end-handbook-2018)
+* [Awesome Flutter](https://github.com/xitu/awesome-flutter)
+* [macOS Security and Privacy Guide](https://github.com/xitu/macOS-Security-and-Privacy-Guide)
+* [State of Vue.js report 2017 中文版](https://github.com/xitu/gold-miner/blob/master/TODO/state-of-vue-report-2017.md)
+* [Next.js 轻量级 React 服务端渲染应用框架中文文档](http://nextjs.frontendx.cn/)
+
+## 区块链
+
+* [属于 JavaScript 开发者的 Crypto 简介](https://juejin.im/post/5ce0c39a51882525f07ef0fa) ([Xuyuey](https://github.com/Xuyuey) 翻译)
+* [2019 区块链平台与技术展望](https://juejin.im/post/5c613e6e6fb9a049e4132ba5) ([gs666](https://github.com/gs666) 翻译)
+* [以太坊入门指南](https://juejin.im/post/5c1080fbe51d452b307969a3) ([gs666](https://github.com/gs666) 翻译)
+* [以太坊: 能帮我们把 Uber 换掉的非比特币加密货币](https://juejin.im/post/5bf3e32ee51d4532ff07a7de) ([noahziheng](https://github.com/noahziheng) 翻译)
+* [所有区块链译文>>](https://github.com/xitu/gold-miner/blob/master/blockchain.md)
+
+## 人工智能
+
+* [浅析深度学习神经网络的卷积层](https://juejin.im/post/5ceeef01518825351e354747) ([QiaoN](https://github.com/QiaoN) 翻译)
+* [时间序列分析、可视化、和使用 LSTM 预测](https://juejin.im/post/5cecdbb75188252db706f4e9) ([Minghao23](https://github.com/Minghao23) 翻译)
+* [Keras 速查表：使用 Python 构建神经网络](https://juejin.im/post/5cd40d24f265da038412a8be) ([Minghao23](https://github.com/Minghao23) 翻译)
+* [深度学习能力的三个等级](https://juejin.im/post/5cce97ec6fb9a031fe3bd85d) ([HearFishle](https://github.com/HearFishle) 翻译)
+* [所有 AI 译文>>](https://github.com/xitu/gold-miner/blob/master/AI.md)
+
 ## Android
 
-* [[译] 探索 Firebase 在 Android 和 iOS 的使用: Analytics (分析模块)](https://gold.xitu.io/entry/5816ac62a22b9d00678ee434?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([yifili09](https://github.com/yifili09) 翻译)
-* [[译] 如何通过 ArrayMap 和 SparseArray 优化 Android App](https://gold.xitu.io/entry/580f57c52e958a005517c1a0?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([jamweak](https://github.com/jamweak) 翻译)
-* [[译] Pury — 一个新的 Android App 性能分析工具](https://gold.xitu.io/entry/57fe4b92a22b9d005b1a8a2a?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([owenlyn](https://github.com/owenlyn) 翻译)
-* [[译] 关于 Android Adapter，你的实现方式可能一直都有问题](https://gold.xitu.io/entry/57fda1fe5bbb50005b3fef76?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([siegeout](https://github.com/siegeout) 翻译)
+* [关于 Flutter 页面路由过渡动画，你所需要知道的一切](https://juejin.im/post/5ceb6179f265da1bc23f55d0) ([EmilyQiRabbit](https://github.com/EmilyQiRabbit) 翻译)
+* [Android Studio Project Marble: Apply Changes](https://juejin.im/post/5ce2c40d6fb9a07ec754ee13) ([qiuyuezhong](https://github.com/qiuyuezhong) 翻译)
+* [WorkManager 基础入门](https://juejin.im/post/5ce4da6a6fb9a07ea712e712) ([gs666](https://github.com/gs666) 翻译)
+* [C++ 和 Android 本地 Activity 初探](https://juejin.im/post/5ce62d4851882532e9631b63) ([Feximin](https://github.com/Feximin) 翻译)
 * [所有 Android 译文>>](https://github.com/xitu/gold-miner/blob/master/android.md)
-
 
 ## iOS
 
-* [[译] UserNotifications Framework 入门介绍](http://gold.xitu.io/entry/5816a28f128fe10055912398?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([Danny Lau](https://github.com/Danny1451) 翻译)
-* [[译] Swift 声明式程序设计](http://gold.xitu.io/entry/58105d1e128fe1005feca8dc?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([Zheaoli](https://github.com/Zheaoli) 翻译)
-* [[译] 如何使用 UIFeedbackGenerator 让应用支持 iOS 10 的触觉反馈](http://gold.xitu.io/entry/5810433ac4c9710058a74100?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([owenlyn](https://github.com/owenlyn) 翻译)
-* [[译] 让 iOS 10 今日控件向后兼容的几个技巧](http://gold.xitu.io/entry/580eec1b8ac247005b620267?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([Edison.Hsu](https://github.com/edison-hsu) 翻译)
+* [Swift 5 中的枚举冻结](https://juejin.im/post/5cea9597e51d45775f5169f2) ([iWeslie](https://github.com/iWeslie) 翻译)
+* [Swift 里的强制 @inline 注解](https://juejin.im/post/5cd67d64518825686244635a) ([iWeslie](https://github.com/iWeslie) 翻译)
+* [Swift 代码格式化](https://juejin.im/post/5ccea148f265da038e54bbf2) ([iWeslie](https://github.com/iWeslie) 翻译)
+* [为你的 iOS App 构建分离测试](https://juejin.im/post/5ccd6b55f265da037d4fbc41) ([iWeslie](https://github.com/iWeslie) 翻译)
 * [所有 iOS 译文>>](https://github.com/xitu/gold-miner/blob/master/ios.md)
 
 ## 前端
 
-* [[译] 与时俱进的 Reactivity](https://gold.xitu.io/entry/58130dcbbf22ec0068824bd2?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([Liz](https://github.com/lizwangying) 翻译)
-* [[译] 重构，不要积压！](https://gold.xitu.io/entry/581066dc8ac247005b6b3d4f?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([rottenpen](https://github.com/rottenpen) 翻译)
-* [[译] Facebook 发布了新的 Node 模块管理器 Yarn，或取代 npm 客户端](https://gold.xitu.io/entry/57fe2f2b128fe1005483131b?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([Zhangjd](https://github.com/Zhangjd) 翻译)
-* [[译] 构建应用状态时，你应该避免不必要的复杂性](https://gold.xitu.io/entry/58044c2a0e3dd900571475fa?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([chemzqm](https://github.com/chemzqm) 翻译)
+* [2019 前端性能优化年度总结 — 第一部分](https://juejin.im/post/5c4418006fb9a049c043545e) ([Hopsken](https://github.com/Hopsken) 翻译)
+* [2019 前端性能优化年度总结 — 第二部分](https://juejin.im/post/5c47232b6fb9a049f8199ee2) ([KarthusLorin](https://github.com/KarthusLorin) 翻译)
+* [2019 前端性能优化年度总结 — 第三部分](https://juejin.im/post/5c5ccbefe51d457f95354a46) ([Starriers](https://github.com/Starriers) 翻译)
+* [2019 前端性能优化年度总结 — 第四部分](https://juejin.im/post/5c56345951882524b77b9f20) ([Ivocin](https://github.com/Ivocin) 翻译)
+* [2019 前端性能优化年度总结 — 第五部分](https://juejin.im/post/5c60ed6cf265da2dd4274724) ([wznonstop](https://github.com/wznonstop) 翻译)
+* [2019 前端性能优化年度总结 — 第六部分](https://juejin.im/post/5c6167f6f265da2ddf7866ec) ([CoolRice](https://github.com/CoolRice) 翻译)
 * [所有前端译文>>](https://github.com/xitu/gold-miner/blob/master/front-end.md)
-
-
-## React
-
-* [[译] 如何用 React 完成图片上传功能？](https://gold.xitu.io/entry/57b923225bbb50005b794943?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([DeadLion](https://github.com/DeadLion) 翻译)
-* [[译] 为你定制的 React 学习路线](https://gold.xitu.io/entry/578375b85bbb5000610cc247?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([aleen42](http://aleen42.github.io/pc.html) 翻译)
-* [[译] 基于 Meteor1.3 和 React 创建简单 App](http://gold.xitu.io/entry/5732a5af79df540060df2e53?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([yangzj1992](http://www.qcyoung.com/) 翻译)
-* [[译] 构建无障碍 React Native 应用](http://gold.xitu.io/entry/56cc0ab299a6ce005a1c3b2b?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([void-main](https://github.com/void-main) 翻译)
-* [[译] 如何发布一个 React components](http://gold.xitu.io/entry/56ce8d1fc24aa800520f94e8?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([aleen42](https://github.com/aleen42) 翻译)
-* [[译] 开发 React Native 前必须知道的几件事](http://gold.xitu.io/entry/56cbf55cefa631005c441d9b?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([huanglizhuo](https://github.com/huanglizhuo) 翻译)
-
 
 ## 后端
 
-*  [[译] 承载了巨大访问量的热门游戏 Pokémon GO 的后端架构是什么？](http://gold.xitu.io/entry/580aef59bf22ec005820a1dc?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([cdpath](https://github.com/cdpath) 翻译)
-*  [[译] 人人都应该用的 Python 开源库](http://gold.xitu.io/entry/57ca8aab165abd0068e5097a?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([Graning](https://github.com/Graning) 翻译)
-*  [[译] 详解 Python 模板引擎工作机制](http://gold.xitu.io/entry/57b4609f6be3ff006a0c8ad3?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([Zheaoli](https://github.com/Zheaoli) 翻译)
-*  [[译] 这样做才能设计出更好的数据表](http://gold.xitu.io/entry/57af3cbc5bbb500062cb38a5?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([Nicolas(Yifei) Li](https://github.com/yifili09) 翻译)
+* [Node.js 日志记录指南](https://juejin.im/post/5cf213e4e51d4577407b1cda) ([fireairforce](https://github.com/fireairforce) 翻译)
+* [化 Markdown 为 HTML：用 Node.js 和 Express 搭建接口](https://juejin.im/post/5cdcc216e51d453a543f9e68) ([Baddyo](https://github.com/Baddyo) 翻译)
+* [使用 Nodemailer 轻松构建能通过电子邮件的重置密码 React 应用程序](https://juejin.im/post/5cdea6e3e51d4510b51279b3) ([fireairforce](https://github.com/fireairforce) 翻译)
+* [使用 VS Code 调试 Node.js 的超简单方法](https://juejin.im/post/5cce9b976fb9a0322415aba4) ([iceytea](https://github.com/iceytea) 翻译)
 * [所有后端译文>>](https://github.com/xitu/gold-miner/blob/master/backend.md)
-
-## 教程
-
-* [[译] Chrome 开发者工具提示和技巧](http://gold.xitu.io/entry/56d56f4dc4c971005193ecec?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([chemzqm](https://github.com/chemzqm) 翻译)
-* [[译] 通过 Electron 开发一个简单的桌面应用](http://gold.xitu.io/entry/56aae5e4a633bd0257ae4ab8?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([Zhangdroid](https://github.com/Zhangdroid) 翻译)
-* [[译] Retrofit 入门教程](http://gold.xitu.io/entry/56cc4085128fe100580dd0ca?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([kevin xiu](https://github.com/xiuweikang) 翻译)
-* [[译] Pokedex.org 给宠物小精灵爱好者的 web app 的技术选型](http://gold.xitu.io/entry/56cebb8edf0eea79dc7c1ff0?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([RobertWang](https://github.com/RobertWang) 翻译)
-* [选择使用正确的 Markdown Parser](http://gold.xitu.io/entry/56ce79db1532bc0053728c2f?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([lfkdsk](https://github.com/lfkdsk) 翻译)
-
 
 ## 设计
 
-* [[译] 为用户体验设计绘制草图，你所需要知道的一切](http://gold.xitu.io/entry/580cd2c5a22b9d006382cba8?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([funtrip](https://github.com/funtrip) 翻译)
-* [[译] 奋起的 IBM 凭什么成为世界上最大最精致的设计公司？](http://gold.xitu.io/entry/57e8c99b8ac247005bd929a6?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([jiaowoyongqi](https://github.com/jiaowoyongqi) 翻译)
-* [[译] 顾虑越少，设计越好](http://gold.xitu.io/entry/57df4d04a0bb9f0058a4429d?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([Siegen](https://github.com/siegeout) 翻译)
-* [[译] 好的设计准则是如何塑造更强大的产品形态的](http://gold.xitu.io/entry/57db572ed203090069d2e201?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([rottenpen](https://github.com/rottenpen) 翻译)
+* [项目世界 — 在数字设计中实现上帝模式](https://juejin.im/post/5ce63193518825332978ef65) ([Charlo-O](https://github.com/Charlo-O) 翻译)
+* [声音设计与无声设计](https://juejin.im/post/5ce354bee51d4510727c7fd1) ([CLOXnu](https://github.com/CLOXnu) 翻译)
+* [曝光！UX 行话大全](https://juejin.im/post/5c9f5c49e51d451b8a2af27b) ([Fengziyin1234](https://github.com/Fengziyin1234) 翻译)
+* [线框图变得不那么重要了 — 好事啊！](https://juejin.im/post/5c9269edf265da6116245ee9) ([hanxiansen](https://github.com/hanxiansen) 翻译)
 * [所有设计译文>>](https://github.com/xitu/gold-miner/blob/master/design.md)
-
 
 ## 产品
 
-* [[译] 减少认知过载可以为用户带来更佳体验](http://gold.xitu.io/entry/58007345816dfa0056e8ff5c?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([Ruixi](https://github.com/Ruixi) 翻译)
-* [[译] 为什么用户体验最重要！最重要！最重要！](http://gold.xitu.io/entry/57e388ef5bbb50005d3c97d9?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([Nicolas(Yifei) Li](https://github.com/yifili09) 翻译)
-* [[译] 如何给你的产品写文案？](http://gold.xitu.io/entry/57d3a12067f3560057d58eba?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([jiaowoyongqi](https://github.com/jiaowoyongqi) 翻译)
-* [[译] 开发移动应用，你应该注意这些小细节](http://gold.xitu.io/entry/57d2d60667f3560057d0cd85?utm_source=gold-miner&utm_medium=readme&utm_campaign=github) ([mypchas6fans](https://github.com/mypchas6fans) 翻译)
+* [2019 版 web 浏览器现状](https://juejin.im/post/5c89e69a51882536fe67b5b4) ([xionglong58](https://github.com/xionglong58) 翻译)
+* [苹果公司如何颠覆瑞士制表业](https://juejin.im/post/5bdc1f3c6fb9a049a9792211) ([noturnot](https://github.com/noturnot) 翻译)
+* [如果界面产品设计师设计实体产品](https://juejin.im/post/5baf9697e51d456f087ba2a8) ([ssshooter](https://github.com/ssshooter) 翻译)
+* [四个「为什么」：是什么在背后驱动你的产品？](https://juejin.im/post/5bac279cf265da0adc18d31a) ([pmwangyang](https://github.com/pmwangyang) 翻译)
 * [所有产品译文>>](https://github.com/xitu/gold-miner/blob/master/product.md)
+
+## 其他
+
+* [帮你高效使用 VS Code 的秘诀](https://juejin.im/post/5cd8fcedf265da03761eaa45) ([Baddyo](https://github.com/Baddyo) 翻译)
+* [我们从招聘技术经理的过程中学到了什么](https://juejin.im/post/5cdcf463f265da0392580820) ([JackEggie](https://github.com/JackEggie) 翻译)
+* [最优控制：LQR](https://juejin.im/post/5cdfe49c6fb9a07eee5e9de6) ([EmilyQiRabbit](https://github.com/EmilyQiRabbit) 翻译)
+* [Commit 提交指南](https://juejin.im/post/5ccf9e60f265da039c05659d) ([Mirosalva](https://github.com/Mirosalva) 翻译)
+* [所有其他分类译文>>](https://github.com/xitu/gold-miner/blob/master/others.md)
+
+# Copyright
+
+> **版权声明：**[掘金翻译计划](https://github.com/xitu/gold-miner)译文仅用于学习、研究和交流。版权归[掘金翻译计划](https://github.com/xitu/gold-miner/)、文章作者和译者所有，欢迎非商业转载。转载前请联系译者或[管理员](http://oiiyyn1t0.bkt.clouddn.com/wechat-517010193.jpg)获取授权，并在文章开头明显位置注明本文出处、译者、校对者和掘金翻译计划的完整链接，违者必究。
+
+# 合作伙伴
+
+<a href="http://www.ituring.com.cn/" target="_blank"><img src="https://i.loli.net/2018/03/21/5ab1c8723d6de.jpg" width="130px;"/></a>
+<a href="https://www.zcfy.cc/" target="_blank"><img src="https://s4.ssl.qhres.com/static/4c3fe1d5645dd9e8.svg" width="240px;" target="_blank"/></a>
